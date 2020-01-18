@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [GRID SAMPLE TEST]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="GRID TEST WITH SERIAL EXECTION WITH BROWSER IE(failed)">
+    <parameter name="browserType" value="IE"/>
+    <classes>
+      <class name="Grid.Chrome_Grid">
+        <methods>
+          <include name="test2"/>
+          <include name="test3"/>
+          <include name="teardown"/>
+          <include name="test1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Grid.Chrome_Grid -->
+    </classes>
+  </test> <!-- GRID TEST WITH SERIAL EXECTION WITH BROWSER IE(failed) -->
+</suite> <!-- Failed suite [GRID SAMPLE TEST] -->

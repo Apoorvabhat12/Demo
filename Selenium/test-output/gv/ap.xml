@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="INENAPOORAL2C" failures="0" tests="3" name="Testng.Groups" time="18.326" errors="0" timestamp="8 Aug 2019 06:48:23 GMT">
+  <testcase classname="Testng.Groups" name="login" time="0.001"/>
+  <testcase classname="Testng.Groups" name="logout" time="0.006"/>
+  <testcase classname="Testng.Sample" name="login" time="7.085"/>
+</testsuite>
